@@ -8,5 +8,6 @@ namespace ProductManagement.Models.Interface
 {
     class IEntity
     {
+        int Id { get; set; }
     }
 }
