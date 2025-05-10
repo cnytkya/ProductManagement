@@ -1,6 +1,7 @@
 ﻿namespace ProductManagement.Data
 {
 	public interface IGenericRepository<T> where T : class
+
 		{
 			void Create(T entity);
 			void Update(T entity);

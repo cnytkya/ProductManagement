@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProductManagement.Models.Interface
+﻿namespace ProductManagement.Models.Interface
 {
-    class IEntity
+    public interface IEntity
     {
         int Id { get; set; }
     }

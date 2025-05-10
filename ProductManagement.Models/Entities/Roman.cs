@@ -1,6 +1,8 @@
-﻿namespace ProductManagement.Models.Entities
+﻿using ProductManagement.Models.Abstract;
+
+namespace ProductManagement.Models.Entities
 {
-    public class Roman
+    public class Roman : BaseEntity
     {
         //public int Id { get; set; }
         //public string Yazar { get; set; }
